@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F7F7F7;
+}
+
+header {
+    height: 45px;
+    background-color: white;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.width-80 {
+    width: 80%;
+}
+
+.width-60 {
+    width: 60%;
+}
+
+.width-20 {
+    width: 20%;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.margin-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.margin-right-25 {
+    margin-right: 25%;
+}
+
+nav {
+    width: 90%;
+}
+
+.pt10 {
+    padding-top: 10px;
+}
+
+.pt-10 {
+    padding-bottom: 20px;
+}
+
+.nav-btn {
+    background-color: #326891;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #326891;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: 700;
+}
+
+#nav-link {
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 0.7px;
+}
+
+.nav-icons {
+    height: 33px;
+    width: 33px;
+    padding: 8px;
+    background-color: transparent;
+    outline: 0;
+    cursor: pointer;
+    border: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
+
+.gray-text {
+    color: #E4E4E4;
+}
+
+.gray-background {
+    background-color: #F7F7F7;
+}
+
+#nav-btn-container {
+    padding-top: 5px;
+}
+
+#ad-container {
+    height: 250px;
+}
