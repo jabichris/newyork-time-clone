@@ -5,14 +5,16 @@
 }
 
 body {
-  background-color: #f7f7f7;
+  background-color: white;
 }
 
 header {
   height: 45px;
   background-color: white;
 }
-
+header nav {
+  margin-top: 15px;
+}
 .width-100 {
   width: 100%;
 }
@@ -105,7 +107,8 @@ nav {
 }
 
 #nav-btn-container {
-  padding-top: 5px;
+  float: right;
+  margin-top: -35px;
 }
 
 #ad-container {
@@ -317,4 +320,77 @@ aside svg {
   height: 23px;
   line-height: 21px;
   text-decoration: none;
+}
+.article-body {
+  max-width: 600px;
+  width: 600px;
+  margin-left: calc((100% - 600px) / 2);
+}
+.article-body p {
+  margin-bottom: 0.9375rem;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+.article-body strong {
+  font-weight: 700;
+}
+figure {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+.article-pic {
+  width: 720px;
+  margin: auto;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+}
+.article-pic img {
+  height: auto;
+  max-width: 100%;
+}
+figcaption {
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  color: rgb(102, 102, 102);
+  text-align: left;
+  margin: 10px 20px 0px;
+}
+.article-vid {
+  width: 720px;
+  margin: auto;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+}
+.article-vid iframe {
+  width: 600px;
+  height: 357.5px;
+}
+.middle-menu {
+  max-width: 100%;
+  margin: 0 auto;
+}
+.inflation {
+  max-width: 945px;
+  margin: auto;
+}
+.article-title h1 {
+  margin: auto;
+  width: 384px;
+}
+.photoviewer {
+  padding-left: 96px;
+}
+.photoviewer img {
+  margin: auto;
+}
+figcaption {
+  width: 907px;
+  margin-left: 101px;
+}
+.article-vid figcaption {
+  margin-left: 0px;
+}
+.article-pic figcaption {
+  margin-left: 0px;
 }
